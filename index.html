@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="wordle.js" defer></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Wordle Clone</title>
+  </head>
+  <body
+    class="p-12 bg-gray-900 flex flex-col gap-8 items-center justify-center h-screen"
+  >
+    <h1
+      class="text-3xl text-center text-slate-50 relative before:absolute before:h-[0.05rem] before:top-full before:translate-y-[0.5rem] before:w-full before:bg-slate-500"
+    >
+      Wordle Clone
+    </h1>
+
+    <main class="grow">
+      <section
+        class="board mb-8 flex flex-col gap-4 justify-center items-center"
+      ></section>
+      <section
+        class="keys flex flex-col gap-4 justify-center items-center"
+      ></section>
+    </main>
+  </body>
+</html>
