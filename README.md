@@ -7,7 +7,8 @@
 ## Description  
 
 Clone of the Wordle game.  
-created in order to practice vanilla js state managment and OOP structure.  
+created in order to practice vanilla js state managment ,OOP structure and js animate api(creating keyframes in js).  
+
 
 original can be found [here](https://www.powerlanguage.co.uk/wordle/)
 
